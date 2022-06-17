@@ -1,0 +1,49 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "WindowsMixedReality",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens"
+			]
+		},
+		{
+			"Name": "OpenXRMsftHandInteraction",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"HoloLens",
+				"Android"
+			]
+		},
+		{
+			"Name": "UXTools",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f9f9cddaf5834ad1abeda49da34adf85",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens",
+				"Android"
+			]
+		},
+		{
+			"Name": "HoloLensAR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"AllDesktop",
+		"HoloLens",
+		"WindowsNoEditor",
+		"Lumin"
+	]
+}
